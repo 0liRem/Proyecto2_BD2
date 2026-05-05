@@ -42,7 +42,6 @@ export default function App() {
         <NavLink to="/consultas" className={linkCls}>Consultas</NavLink>
         <NavLink to="/carga" className={linkCls}>Carga CSV</NavLink>
         <NavLink to="/clasificacion" className={linkCls}>Clasificación</NavLink>
-        <NavLink to="/data-science" className={linkCls}>Graph Analytics</NavLink>
       </aside>
       <main className="flex-1 p-6 overflow-auto">
         <Routes>
